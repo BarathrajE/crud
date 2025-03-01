@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form input:first-child{
+    margin-top: 20px;
+}
+.form input{
+    border: 1px solid #fff;
+    padding: 12px 10px;
+    outline: none;
+    margin-bottom: 12px;
+    width: 200px;
+}
+.form button{ 
+    background-color: aquamarine;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 12px;
+    margin-top: 20px;
+}
+table button{
+    border: none;
+    outline: none;
+    background-color: rgb(10, 149, 56);
+    padding: 6px 10px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+table button:last-child{
+    background-color: red;
+}
+.buttonuc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.buttonuc button:last-child{
+    background-color: rgb(237, 56, 56);
+    margin-left: 20px;
+}

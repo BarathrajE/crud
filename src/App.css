@@ -7,6 +7,12 @@
 .form input:first-child{
     margin-top: 20px;
 }
+*{
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
 .form input{
     border: 1px solid #fff;
     padding: 12px 10px;
